@@ -1,0 +1,124 @@
+*{
+    margin: 0px;;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    /* 3 Banner */
+    .banner_wrapper{
+        padding: 100px 0 100px;
+    }
+    .banner_wrapper .row{
+        flex-direction: column-reverse;
+    }
+    .banner_wrapper{
+        justify-content: center;
+    }
+    .aboutus_wrapper{
+        justify-content: center;
+    }
+}
+  
+
+    
+   
+
+.navbar-nav{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+.navbar-brand{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+.banner_wrapper{
+    background-color: black;
+}
+.banner_wrapper .banner-title{
+
+    font-weight: 800;
+    font-size: 100px;
+    text-transform: capitalize;
+    line-height: 1.15;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    color:white;
+    animation: float 5s ease-in-out infinite;
+    
+}
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+#contact_us{
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin:50px 0;
+}
+
+.aboutus_wrapper{
+    margin:50px 0;
+}
+.ourservice_wrapper{
+
+margin:50px 0;
+}
+
+.Contact{
+    font-size: 40px;
+    font-weight: 500;
+}
+.ourservice_title{
+font-size: 40px;
+    font-weight: 500;
+}
+.aboutus-title{
+    font-size: 40px;
+    font-weight: 500;
+}
+input[type=text] {
+    background-color: black;
+    color:white;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .banner_wrapper img{
+    margin: 100px 0;
+  }
+  .ourservice_wrapper .card-group .card-text{
+    overflow-x: scroll;
+  }
+  .ourservice_wrapper .card-group{
+    padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+   transition: 0.3s;
+  }
+  .ourservice_wrapper .card-group .card-text:hover{
+
+  color: white;
+  background-color: black;
+
+  }
